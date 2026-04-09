@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>류도영 포트폴리오</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .nav_background {
+        color: rgb(255, 255, 255);
+      }
+
+      .aboutme {
+        margin: 10px auto;
+        border: 2px solid darkgray;
+        border-radius: 10px;
+        padding: 15px;
+      }
+
+      .f_info {
+        margin: 5px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .bg-body-tertiary1 {
+        /*부트스트랩의 기본 코드에서 따와서 수정함*/
+        --bs-bg-opacity: 1;
+        background-color: rgb(255, 255, 255);
+      }
+
+      .project {
+        background-color: darkgrey;
+        color: white;
+      }
+
+      .table tr td {
+        background-color: darkgrey;
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand bg-body-tertiary1">
+      <!--축소모드 아이콘 비활성화-->
+      <div class="container-md nav_background">
+        <a class="navbar-brand" href="#">R.D.Y.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About me.</a>
+            </li>
+            <!--<li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="project">
+      <div class="container">
+        <h2>Project</h2>
+        <table class="table">
+          <tr>
+            <td>26.03.26~04.08</td>
+            <td>HTML5/JAVASCRIPT</td>
+          </tr>
+          <tr>
+            <td>26.04.09~05.</td> <!--자바 추가-->
+            <td>JAVA</td>
+          </tr>
+        </table>
+      </div>
+
+    </section>
+    <section>
+      <div class="container text-center aboutme">
+        <div class="row">
+          <div class="col">
+            <img
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2216AB4A54A215301E"
+              class="rounded img-fluid"
+              alt="사진"
+            />
+          </div>
+          <div class="col d-flex align-items-center flex-wrap">
+            <!--d-flex 가운데 정렬-->
+            <h3><strong>편리함을 고민하는 개발자</strong></h3>
+            <p>
+              일상생활과 업무의 활동에 있어 사용자가 편리할 수 있는 방법을 늘
+              고민하는 인생3회차 개발자입니다.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col f_info shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+            <legend>기본정보</legend>
+            <p>
+              1984.01.18<br />
+              dy8327@gmail.com
+            </p>
+          </div>
+          <div class="col f_info shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+            <legend>학력</legend>
+            <p>
+              2009. 공주대학교<br />
+              전기전자공학과 학사
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col f_info col f_info shadow p-3 mb-5 bg-body-tertiary rounded"
+          >
+            <legend>학습 언어</legend>
+            <p>
+              HTML5 / CSS / PYTHON<br />
+              JAVASCRIPT / JAVA<br />
+              C / VHDL / VERILOG
+            </p>
+          </div>
+          <div class="col f_info shadow p-3 mb-5 bg-body-tertiary rounded">
+            <legend>사용 툴</legend>
+            <p>VSCODE<br />Notion<br />PhotoShop<br />Illustrator</p>
+          </div>
+        </div>
+        <p></p>
+      </div>
+    </section>
+  </body>
+  
+  <footer class="text-center">
+    <a href="https://sigd.tistory.com/" target="_blank">
+      <img
+        src="https://avatars.githubusercontent.com/u/14343537?s=280&v=4"
+        width="80px"
+    /></a>
+    <a
+      href="https://www.notion.so/32e3c3e2c78e80c8b13bd564ae38ece5?source=copy_link"
+      target="_blank"
+      ><img
+        src="https://blog.kakaocdn.net/dna/dYU0g1/btrqbFZg8MN/AAAAAAAAAAAAAAAAAAAAAC0jtJBH6Z1rU5Re3lfTt9EP2e65JRARXwcpzWMlS-GS/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=ziJ%2BipvwFmqH4q64xQ8gTvHlkzM%3D"
+        width="80px"
+    /></a>
+    <!--아이콘으로 가져와서 호버 입히기-->
+    <a href="https://github.com/dy8327/School" target="_blank"
+      ><img
+        src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
+        width="80px"
+      />
+    </a>
+    <p>ⓒ2026.류도영.All rights reserved.</p>
+  </footer>
+</html>
